@@ -7,10 +7,10 @@
   <body>
     <script>
       var cakeorbust = prompt("Do you want cake? (yes or no)");
-      if (cakeorbust === "yes") {
+      if (cakeorbust === "yes" || cakeorbust === "YES" || cakeorbust === "y") {
         console.log("Have some cake");
-      } else if (cakeorbust === "no"); {
-        console.log("no cakee for you!");
+      } else if (cakeorbust === "no" || cakeorbust === "NO" || cakeorbust === "n") {
+        console.log("no cake for you!");
       } else {
         console.log("Sorry, I don't understand.");
       }
